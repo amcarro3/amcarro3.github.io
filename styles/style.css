@@ -3,11 +3,28 @@
 }
 
 :root {
-    --clr-primary: #0081A7;
+    --clr-primary: #172847;
     --clr-secondary: #C3DFE0;
-    --clr-tertiary: #BCD979;
-    --clr-accent: #FC440F;
-    --clr-secondary-accent: #1F01B9;
+    --clr-tertiary: #9DE253;
+    --clr-accent: #3772FF;
+    --clr-secondary-accent: #c00a16;
+}
+
+body {
+    margin: 1em;
+    background-color: var(--clr-primary);
+    color: var(--clr-secondary);
+    line-height: 1.5;
+}
+
+.main-title {
+    color: var(--clr-tertiary);
+}
+
+
+
+nav {
+    background-color: var(--clr-secondary-accent);
 }
 
 img {
