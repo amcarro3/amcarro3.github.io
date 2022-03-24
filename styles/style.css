@@ -1,0 +1,15 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+:root {
+    --clr-primary: #0081A7;
+    --clr-secondary: #C3DFE0;
+    --clr-tertiary: #BCD979;
+    --clr-accent: #FC440F;
+    --clr-secondary-accent: #1F01B9;
+}
+
+img {
+    max-width: 100%;
+}

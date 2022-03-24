@@ -1,0 +1,5 @@
+Primary Celadon Blue #172847
+Secondary Powder Blue # 00afb9 
+Tertiary Yellow Green Crayola #fdfcdc
+Accent Coquelicot #fed9b7
+Secondary-Accent Trypan Blue #f07167
