@@ -4,27 +4,39 @@
 
 :root {
     --clr-primary: #172847;
-    --clr-secondary: #C3DFE0;
-    --clr-tertiary: #9DE253;
-    --clr-accent: #3772FF;
-    --clr-secondary-accent: #c00a16;
+    --clr-secondary: #c00a16; 
+    --clr-tertiary: #3772FF;
+    --clr-text: #C3DFE0;
+    --clr-accent: #9DE253;
+   
+    
 }
 
 body {
     margin: 1em;
     background-color: var(--clr-primary);
-    color: var(--clr-secondary);
+    color: var(--clr-text);
     line-height: 1.5;
 }
 
 .main-title {
-    color: var(--clr-tertiary);
+    color: var(--clr-accent);
 }
 
 
 
 nav {
-    background-color: var(--clr-secondary-accent);
+    background-color: var(--clr-secondary);
+    width: 100vw;
+    height: auto;
+    padding: 1em;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.nav-link{
+    color: var(--clr-tertiary);
 }
 
 img {
